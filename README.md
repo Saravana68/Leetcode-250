@@ -1,8 +1,8 @@
 # Leetcode -250 🔥
 
- <li> Each problem has written with Both Brute force and Optimal approach with their respective time complexities </li> 
- <li> Every solution is a valid solution uploaded only after got accepted in Leetcode </li>
- <li> Every Problem was directly uploaded from Leetcode editor using chrome extension </li> 
+ <li> ✅ Each problem has written with Both Brute force and Optimal approach with their respective time complexities </li> 
+ <li> ✅ Every solution is a valid solution uploaded only after got accepted in Leetcode </li> 
+ <li> ✅ Every Problem was directly uploaded from Leetcode editor using chrome extension </li> 
 
 <h3> 📌 Arrays <br> <hr>
  Dificulty : Medium ✅ <h3> 
