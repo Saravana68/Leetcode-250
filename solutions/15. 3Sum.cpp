@@ -7,7 +7,8 @@ public:
      
       Brute force approach will be: using three loops to traverse the array 
       to find the required the output. after finding three indices where 
-      i!= j!= k ,we need to insert theses three indices in hashmap
+      i!= j!= k , store the answer in result vector and also
+      we need to insert theses three indices in hashmap
       
       in next iteration if we found new three indices ,we need to check 
       whether atleast two indices are not seen/encountered for answer before.
@@ -24,10 +25,10 @@ public:
       so these triplets are not valid so that they are not in actual output */
         
      /* better approach : 01
-      additional array to copy input
-      sort that array
-      select one index i, use two pointer approach to find remaining two indices.
-      time :   O(n2)        space : o(1);
+      1.sort that array
+      2.select one index i, use two pointer approach to find remaining two indices.
+      3.handle duplicates inside while loop 
+      time :   O(n^2)        space : o(1);
       */
       
        int n = nums.size();
