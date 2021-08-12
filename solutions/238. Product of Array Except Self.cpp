@@ -65,5 +65,6 @@ public:
         }
         output[0] = product;
         return output;
+        // first time solved: 12.08.2021
     }
 };
