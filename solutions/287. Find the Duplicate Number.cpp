@@ -4,7 +4,7 @@ public:
 ​
     
     //First time Solved: dont know but I've solved it using brute force appraoch
-    // second time revisted today after solving leetcode 442
+    // second time revisted today-18.06.2021 after solving leetcode 442
     // used the same approach it worked and it became 6 ms, faster than 95.66% of C++ online submissions 
 ​
     /* bruteforce: 01
