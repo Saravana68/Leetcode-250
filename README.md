@@ -43,3 +43,4 @@
  |---| ----- | -------- | ------- |
  |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|12 ms|
  |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|8 ms|
+|1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
