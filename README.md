@@ -3,7 +3,7 @@
  <li> ✅ Each problem has written with Both Brute force and Optimal approach with their respective time complexities </li> 
  <li> ✅ Every solution is a valid solution uploaded only after got accepted in Leetcode </li> 
  <li> ✅ Every Problem was directly uploaded from Leetcode editor using chrome extension </li> 
- <h2> Solved: 25/300 </h2>
+ <h2> Solved: 26/300 </h2>
 <h3> 📌 Arrays : 30 questions <br> <hr>
 <h3>  Dificulty : Easy ✅ </h3> <h3>
  
@@ -37,6 +37,8 @@
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[C++](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.cpp)|60 ms||1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
 |1423|[ Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[C++](./solutions/1423.%20Maximum%20Points%20You%20Can%20Obtain%20from%20Cards.cpp)|60 ms|
+|1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[C++](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.cpp)|60 ms|
+ 
 
  <h3> 📌 Strings : 30 questions <br> <hr>
 <h3>  Dificulty : Easy ✅ </h3> <h3>
@@ -45,4 +47,3 @@
  |---| ----- | -------- | ------- |
  |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|12 ms|
  |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|8 ms|
-|1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[C++](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.cpp)|60 ms|
