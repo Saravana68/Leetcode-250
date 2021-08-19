@@ -3,6 +3,7 @@ public:
     int maxScore(vector<int>& cardPoints, int k) {
      
     /*
+     first time solved: 19.18.2021
      Goal: To find maximum sum by taking one card at a time from either side.
      Reduced Goal: To find maximum sum by taking x cards from front and k-x cards from back of      array.
     */
