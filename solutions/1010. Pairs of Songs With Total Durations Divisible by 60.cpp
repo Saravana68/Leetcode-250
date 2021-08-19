@@ -35,12 +35,3 @@ public:
     for(int i =0;i<n;i++)
     {
         int value = (60 - (time[i] % 60 ) == 60 )? 0: 60 - (time[i] % 60);
-        
-        result += freq[value];
-        freq[time[i]%60] +=1;
-    }
-        
-        return result;
-    }
-};
-​
