@@ -35,6 +35,7 @@
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[C++](./solutions/560.%20Subarray%20Sum%20Equals%20K.cpp)|76 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./solutions/724.%20Find%20Pivot%20Index.cpp)|24 ms|
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[C++](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.cpp)|60 ms|
+|1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
 
  <h3> 📌 Strings : 30 questions <br> <hr>
 <h3>  Dificulty : Easy ✅ </h3> <h3>
@@ -43,4 +44,4 @@
  |---| ----- | -------- | ------- |
  |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|12 ms|
  |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|8 ms|
-|1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
+  
