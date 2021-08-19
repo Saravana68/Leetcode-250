@@ -45,3 +45,4 @@
  |---| ----- | -------- | ------- |
  |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|12 ms|
  |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./solutions/415.%20Add%20Strings.cpp)|8 ms|
+|1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[C++](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.cpp)|60 ms|
