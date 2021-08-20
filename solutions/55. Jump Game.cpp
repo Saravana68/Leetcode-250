@@ -19,13 +19,11 @@ public:
     */
         int n = nums.size();
         int maxReachable = 0;
-        for(int i =0; i<nums.size()-1; i++)
+        for(int i =0; i<nums.size(); i++)
         {
-            if(i<maxReachable)
+            if(maxReachable < i)
                 return false;
-            
-            int tempReachable = i+nums[i];
-            maxReachable = max(maxReachable,tempReachable);
+            maxReachable = max(maxReachable,i+nums[i]);
         }
         return true;
     }
