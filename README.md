@@ -22,7 +22,6 @@
  
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
-|2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./solutions/2.%20Add%20Two%20Numbers.cpp)|32 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./solutions/11.%20Container%20With%20Most%20Water.cpp)|76 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C++](./solutions/15.%203Sum.cpp)|64 ms|
 |16|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./solutions/16.%203Sum%20Closest.cpp)|16 ms|
@@ -30,7 +29,6 @@
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./solutions/55.%20Jump%20Game.cpp)|60 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[C++](./solutions/78.%20Subsets.cpp)|4 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./solutions/88.%20Merge%20Sorted%20Array.cpp)|4 ms|
-|138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.cpp)|8 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./solutions/238.%20Product%20of%20Array%20Except%20Self.cpp)|24 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./solutions/287.%20Find%20the%20Duplicate%20Number.cpp)|88 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./solutions/289.%20Game%20of%20Life.cpp)|0 ms|
@@ -61,3 +59,10 @@
  |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|8 ms|
  |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](./solutions/206.%20Reverse%20Linked%20List.cpp)|4 ms|
  |234|[ Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[C++](./solutions/234.%20Palindrome%20Linked%20List.cpp)|220 ms|
+ 
+ <h3>  Dificulty : Medium ✅ </h3> <h3>
+ 
+ | # | Title | Solution | Runtime |
+ |---| ----- | -------- | ------- |
+ |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./solutions/2.%20Add%20Two%20Numbers.cpp)|32 ms|
+ |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.cpp)|8 ms|
