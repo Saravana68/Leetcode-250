@@ -1,3 +1,22 @@
+      10. return result head
+     TIME: O(L1 + L2)  SPACE : O(1)
+  */
+     
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+             
+​
+     ListNode * result = new ListNode();
+     ListNode * temp = result;
+     int carry = 0;
+​
+        
+      while(l1 ||  l2 ){
+         int sum =0 ;
+         if(l1)
+          {
+             sum+= l1->val;
              l1= l1->next;
               
           }
