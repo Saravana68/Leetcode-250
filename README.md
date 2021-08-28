@@ -28,11 +28,9 @@
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./solutions/55.%20Jump%20Game.cpp)|60 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[C++](./solutions/78.%20Subsets.cpp)|4 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./solutions/88.%20Merge%20Sorted%20Array.cpp)|4 ms|
-|143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./solutions/143.%20Reorder%20List.cpp)|51 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./solutions/238.%20Product%20of%20Array%20Except%20Self.cpp)|24 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./solutions/287.%20Find%20the%20Duplicate%20Number.cpp)|88 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./solutions/289.%20Game%20of%20Life.cpp)|0 ms|
-|328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[C++](./solutions/328.%20Odd%20Even%20Linked%20List.cpp)|8 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[C++](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).cpp)|180 ms|
 |442|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./solutions/442.%20Find%20All%20Duplicates%20in%20an%20Array.cpp)|44 ms|
 |532|[ K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[C++](./solutions/532.%20K-diff%20Pairs%20in%20an%20Array.cpp)|16 ms|
@@ -70,3 +68,5 @@
  |92|[ Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./solutions/92.%20Reverse%20Linked%20List%20II.cpp)|4 ms|
  |445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[C++](./solutions/445.%20Add%20Two%20Numbers%20II.cpp)|88 ms|
  |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|3 ms|
+ |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./solutions/143.%20Reorder%20List.cpp)|51 ms|
+ |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[C++](./solutions/328.%20Odd%20Even%20Linked%20List.cpp)|8 ms|
