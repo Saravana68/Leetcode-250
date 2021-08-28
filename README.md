@@ -26,7 +26,6 @@
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C++](./solutions/15.%203Sum.cpp)|64 ms|
 |16|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./solutions/16.%203Sum%20Closest.cpp)|16 ms|
 |18|[ 4Sum](https://leetcode.com/problems/4sum/)|[C++](./solutions/18.%204Sum.cpp)|320 ms|
-|19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|3 ms|
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./solutions/55.%20Jump%20Game.cpp)|60 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[C++](./solutions/78.%20Subsets.cpp)|4 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./solutions/88.%20Merge%20Sorted%20Array.cpp)|4 ms|
@@ -35,7 +34,6 @@
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./solutions/289.%20Game%20of%20Life.cpp)|0 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[C++](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).cpp)|180 ms|
 |442|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./solutions/442.%20Find%20All%20Duplicates%20in%20an%20Array.cpp)|44 ms|
-|445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[C++](./solutions/445.%20Add%20Two%20Numbers%20II.cpp)|88 ms|
 |532|[ K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[C++](./solutions/532.%20K-diff%20Pairs%20in%20an%20Array.cpp)|16 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[C++](./solutions/560.%20Subarray%20Sum%20Equals%20K.cpp)|76 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./solutions/724.%20Find%20Pivot%20Index.cpp)|24 ms|
@@ -69,3 +67,5 @@
  |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./solutions/2.%20Add%20Two%20Numbers.cpp)|32 ms|
  |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.cpp)|8 ms|
  |92|[ Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./solutions/92.%20Reverse%20Linked%20List%20II.cpp)|4 ms|
+ |445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[C++](./solutions/445.%20Add%20Two%20Numbers%20II.cpp)|88 ms|
+ |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|3 ms|
