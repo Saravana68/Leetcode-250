@@ -8,6 +8,29 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+​
+  /* BRUTEFORCE APPROACH:
+     01.Using vector<int> and copying all elements of list into vector 
+     02. sorting vector using sort() function
+     03. again traversing list and vector and inserting values of vector into each nodes
+     04.return head;
+     TIME COMPLEXITY: O(NLOGN)
+     SPACE COMPLEXITY: O(N)
+  */
+ 
+  /* OPTIMAL APPROACH
+      01.using merge sort for sorting
+      02. divide list into two equal halves using getMid function
+      03. sort head to mid as left part
+      04. sort mid to end as right part
+      05. merge left and right part
+      06. return new head;
+      TIME COMPLEXITY : O(NLOGN) 
+      SPACE COMPLEXITY : O(1)
+  */
+  
+  //FIRST TIME SOLVED : 30.08.2021
+​
 class Solution {
 public:
     
@@ -31,31 +54,3 @@ public:
         {
             if(list1->val < list2->val)
             {
-                dummy->next = list1;
-                list1 = list1->next;
-            }
-            else{
-                dummy->next = list2;
-                list2 = list2->next;                
-            }
-            dummy = dummy->next;
-        }
-        if(list1) 
-            dummy->next = list1;
-        else 
-            dummy->next = list2;
-        return mergehead->next;
-            
-    }
-    
-    ListNode* sortList(ListNode* head) {
-        
-        if(!head || !head->next)
-            return head;
-        
-      ListNode *mid = getMid(head);
-      ListNode * left = sortList(head);
-      ListNode * right = sortList(mid);
-      return merge(left,right);
-    }
-};
