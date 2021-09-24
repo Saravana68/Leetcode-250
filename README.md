@@ -26,6 +26,7 @@
 |16|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./solutions/16.%203Sum%20Closest.cpp)|16 ms|
 |18|[ 4Sum](https://leetcode.com/problems/4sum/)|[C++](./solutions/18.%204Sum.cpp)|320 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./solutions/20.%20Valid%20Parentheses.cpp)|0 ms|
+|21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|8 ms|
 |24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[C++](./solutions/24.%20Swap%20Nodes%20in%20Pairs.cpp)|12 ms|
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./solutions/55.%20Jump%20Game.cpp)|60 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./solutions/61.%20Rotate%20List.cpp)|7 ms|
