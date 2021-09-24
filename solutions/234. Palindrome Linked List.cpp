@@ -26,3 +26,29 @@ public:
         
         if(head == NULL ) return false;
         if(head->next == NULL) return true;
+        if(head->next->next == NULL)
+        {
+            if(head->val == head->next->val)
+             return true;
+            else 
+                return false;
+        } 
+        
+        ListNode *curr=head, *slow=head, *fast=head;
+        while(fast->next && fast->next->next){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        slow->next=reverse(slow->next);
+        slow=slow->next;
+        while(slow){
+            if(slow->val!=curr->val) return 0;
+            slow=slow->next;
+            curr=curr->next;
+        }
+        return 1;
+    }
+};
+    
+    
+    
