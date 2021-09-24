@@ -35,3 +35,35 @@ public:
         head = tail = NULL;
         if( l1->val <= l2->val)
         {
+           head = tail=l1;
+           l1 = l1->next;
+        }
+        else 
+        {
+            head =tail=l2;
+            l2= l2->next;
+        }
+        while(l1!=NULL && l2!= NULL)
+        {
+            cout<<head->val<<" "<<head->next->val<<endl;
+         if( l1->val <= l2->val)
+            {
+                head->next = l1;
+                head = head->next;
+                l1 = l1->next;
+            }
+         else 
+            {
+              head->next = l2;
+              head = head->next;
+              l2 = l2->next;
+            }
+            cout<<head->val<<" "<<head->next<<endl;
+        }
+        
+        if(l1 == NULL) head->next = l2;
+        else head->next = l1;
+        
+        return tail;
+    }
+};
