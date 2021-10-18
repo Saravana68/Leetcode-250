@@ -38,7 +38,7 @@
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[C++](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cpp)|8 ms|
 |110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[C++](./solutions/110.%20Balanced%20Binary%20Tree.cpp)|26 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[C++](./solutions/112.%20Path%20Sum.cpp)|12 ms|
-|114|[ Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./solutions/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.cpp)|8 ms|
+|114|[ Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./solutions/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.cpp)||
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[C++](./solutions/148.%20Sort%20List.cpp)|207 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./solutions/155.%20Min%20Stack.cpp)|16 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C++](./solutions/203.%20Remove%20Linked%20List%20Elements.cpp)|20 ms|
