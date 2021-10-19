@@ -61,6 +61,7 @@
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./solutions/724.%20Find%20Pivot%20Index.cpp)|24 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./solutions/739.%20Daily%20Temperatures.cpp)|223 ms|
 |844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[C++](./solutions/844.%20Backspace%20String%20Compare.cpp)|0 ms|
+|889|[ Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[C++](./solutions/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal.cpp)|8 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[C++](./solutions/901.%20Online%20Stock%20Span.cpp)|216 ms|
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[C++](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.cpp)|60 ms||1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
