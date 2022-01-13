@@ -100,5 +100,6 @@
  |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|3 ms|
  |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./solutions/143.%20Reorder%20List.cpp)|51 ms|
  |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[C++](./solutions/328.%20Odd%20Even%20Linked%20List.cpp)|8 ms|
+|1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[C++](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.cpp)|526 ms|
 |1561|[ Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[C++](./solutions/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.cpp)|140 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.cpp)|112 ms|
