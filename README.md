@@ -1,8 +1,9 @@
 # Leetcode - 200 🔥
 
+ <li> ✅ The below listed problems are solved by me in leetcode platform </li> 
  <li> ✅ Each problem has written with Both Brute force and Optimal approach with their respective time complexities </li> 
  <li> ✅ Every solution is a valid solution uploaded only after got accepted in Leetcode </li> 
- <li> ✅ Every Problem was directly uploaded from Leetcode editor using chrome extension </li> 
+ <li> ✅ Every Problem was directly uploaded from Leetcode editor using chrome extension called LeetRecord </li> 
 <h3> 📌 Arrays : 30 questions <br> <hr>
 <h3>  Dificulty : Easy ✅ </h3> <h3>
  
