@@ -8,6 +8,8 @@
  
  | # | Title | Solution | Runtime |
  |---| ----- | -------- | ------- |
+ 
+ 
  |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.cpp)|4 ms|
  |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.cpp)|24 ms|
  |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./solutions/1480.%20Running%20Sum%20of%201d%20Array.cpp)|4 ms|
