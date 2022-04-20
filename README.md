@@ -121,6 +121,7 @@
 |1561|[ Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[C++](./solutions/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.cpp)|140 ms|
 |1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[C++](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.cpp)|1009 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.cpp)|112 ms|
+|1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./solutions/1696.%20Jump%20Game%20VI.cpp)|216 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp)|74 ms|
 |2231|[ Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[C++](./solutions/2231.%20Largest%20Number%20After%20Digit%20Swaps%20by%20Parity.cpp)|0 ms|
 |2232|[ Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[C++](./solutions/2232.%20Minimize%20Result%20by%20Adding%20Parentheses%20to%20Expression.cpp)|0 ms|
