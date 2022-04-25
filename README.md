@@ -135,5 +135,6 @@
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp)|74 ms|
 |2074|[ Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[C++](./solutions/2074.%20Reverse%20Nodes%20in%20Even%20Length%20Groups.cpp)|1342 ms|
 |2095|[ Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./solutions/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)|1487 ms|
+|2130|[ Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[C++](./solutions/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.cpp)|950 ms|
 |2231|[ Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[C++](./solutions/2231.%20Largest%20Number%20After%20Digit%20Swaps%20by%20Parity.cpp)|0 ms|
 |2232|[ Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[C++](./solutions/2232.%20Minimize%20Result%20by%20Adding%20Parentheses%20to%20Expression.cpp)|0 ms|
