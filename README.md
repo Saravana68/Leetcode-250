@@ -88,6 +88,7 @@
 |486|[ Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[C++](./solutions/486.%20Predict%20the%20Winner.cpp)|8 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[C++](./solutions/494.%20Target%20Sum.cpp)|4 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[C++](./solutions/498.%20Diagonal%20Traverse.cpp)|261 ms|
+|508|[ Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/)|[C++](./solutions/508.%20Most%20Frequent%20Subtree%20Sum.cpp)|48 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[C++](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.cpp)|24 ms|
 |532|[ K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[C++](./solutions/532.%20K-diff%20Pairs%20in%20an%20Array.cpp)|16 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./solutions/543.%20Diameter%20of%20Binary%20Tree.cpp)|11 ms|
