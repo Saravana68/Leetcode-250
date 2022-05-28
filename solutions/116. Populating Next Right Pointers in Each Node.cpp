@@ -19,18 +19,27 @@ public:
 class Solution {
 public:
     Node* connect(Node* root) {
-        if(!root) return NULL;
-        queue<Node*> q;
         Node* curr = root;
-        q.push(root);
-        while(q.size()){
-            Node* temp = NULL;
-            int size = q.size();
-            for(int i =0;i<size;i++){
-                Node* root = q.front(); q.pop();
-                if(i != 0){
-                    temp->next = root;
-                }
-                temp = root;
-                if(root->left) q.push(root->left);
-                if(root->right) q.push(root->right);
+       Node* rowHead = NULL,*rowTail = NULL;
+       while(curr){
+           vector<Node*> children = {curr->left,curr->right};
+           for(auto temp : children){
+               if(!temp)
+                   continue;
+               if(!rowHead){
+                   rowHead = rowTail = temp;
+               }
+               else{
+                   rowTail->next = temp;
+                   rowTail = rowTail->next;
+               }
+           }
+           curr = curr->next;
+           if(!curr){
+               curr = rowHead;
+               rowHead = rowTail = NULL;
+           }
+       }
+        return root;
+    }
+};
