@@ -1,5 +1,20 @@
-    // Preorder Traversal
-    void preorder(TreeNode* root, string& str)
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+​
+/* 
+class Solution {
+public:
+    // Inorder Traversal
+    void inorder(TreeNode* root, string& str)
     {
         if(!root)
         {
@@ -7,52 +22,15 @@
             return;
         }
         
+        inorder(root->left,str);
         str += to_string(root->val);
-        preorder(root->left,str);
-        preorder(root->right,str);
+        inorder(root->right,str);
     }
     
-    // Function to check whether the subtree or not
-    bool isSubtree(TreeNode* root, TreeNode* subRoot) 
+    // Preorder Traversal
+    void preorder(TreeNode* root, string& str)
     {
-        // If subRoot is empty
-        if(!subRoot)
-            return true;
-        
-        // If root is empty and subRoot is non-empty
         if(!root)
-            return false;
-        
-        // Create a string of inorder traversal of both the trees
-        string inT, inS;
-        inorder(root,inT);
-        inorder(subRoot,inS);
-        
-        // If inS is not the substring of inT, return false
-        if(inT.find(inS) == string::npos)
-            return false;
-        
-        // If inS is the substring of inT
-        // Create a string of preorder traversal of both the trees
-        // Instead of preorder traversal, you can also take postorder traversal
-        string preT, preS;
-        preorder(root,preT);
-        preorder(subRoot,preS);
-        
-        cout<<inT<<" "<<inS<<endl;
-        cout<<preT<<" "<<preS<<endl;
-        // If preS is the substring of preT, return true otherwise return false
-        return (preT.find(preS) != string::npos);
-    }
-};
-*/
-string formString(TreeNode* root){
-    if(!root)
-         return " ";
-    string left = formString(root->left);
-    string right = formString(root->right);
-    
-    string temp = '*' + left + to_string(root->val) + right + '*';
-    return temp;
-}
-class Solution {
+        {
+            str += '$';
+            return;
