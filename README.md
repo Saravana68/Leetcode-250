@@ -61,7 +61,7 @@
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](./solutions/142.%20Linked%20List%20Cycle%20II.cpp)|8 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.cpp)|8 ms|
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[C++](./solutions/148.%20Sort%20List.cpp)|207 ms|
-|152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C++](./solutions/152.%20Maximum%20Product%20Subarray.cpp)|N/A|
+|152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C++](./solutions/152.%20Maximum%20Product%20Subarray.cpp)|10 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[C++](./solutions/155.%20Min%20Stack.cpp)|16 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.cpp)|36 ms|
 |173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[C++](./solutions/173.%20Binary%20Search%20Tree%20Iterator.cpp)|37 ms|
