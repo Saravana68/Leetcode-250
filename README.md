@@ -121,6 +121,7 @@
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[C++](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.cpp)|22 ms|
 |1352|[ Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[C++](./solutions/1352.%20Product%20of%20the%20Last%20K%20Numbers.cpp)|162 ms|
 |1353|[ Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[C++](./solutions/1353.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended.cpp)|312 ms|
+|1377|[ Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|[C++](./solutions/1377.%20Frog%20Position%20After%20T%20Seconds.cpp)|78 ms|
 |1423|[ Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[C++](./solutions/1423.%20Maximum%20Points%20You%20Can%20Obtain%20from%20Cards.cpp)|60 ms|
 |1465|[ Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)|[C++](./solutions/1465.%20Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts.cpp)|60 ms|
  |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./solutions/28.%20Implement%20strStr().cpp)|12 ms|
