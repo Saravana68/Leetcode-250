@@ -140,6 +140,7 @@
 |1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[C++](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.cpp)|526 ms|
 |1561|[ Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[C++](./solutions/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.cpp)|140 ms|
 |1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[C++](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.cpp)|1009 ms|
+|1629|[ Slowest Key](https://leetcode.com/problems/slowest-key/)|[C++](./solutions/1629.%20Slowest%20Key.cpp)|19 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.cpp)|112 ms|
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./solutions/1696.%20Jump%20Game%20VI.cpp)|216 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp)|74 ms|
