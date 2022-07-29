@@ -57,6 +57,7 @@
 |117|[ Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[C++](./solutions/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cpp)|31 ms|
 |130|[ Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./solutions/130.%20Surrounded%20Regions.cpp)|16 ms|
 |133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[C++](./solutions/133.%20Clone%20Graph.cpp)|4 ms|
+|139|[ Word Break](https://leetcode.com/problems/word-break/)|[C++](./solutions/139.%20Word%20Break.cpp)|12 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](./solutions/141.%20Linked%20List%20Cycle.cpp)|12 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[C++](./solutions/142.%20Linked%20List%20Cycle%20II.cpp)|8 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.cpp)|8 ms|
