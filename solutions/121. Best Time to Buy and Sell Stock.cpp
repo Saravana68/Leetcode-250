@@ -20,13 +20,21 @@ public:
       time: O(N) space: O(1)
      */
     
-     int maxProf = 0;
-     int minVal = INT_MAX;
-      for(int i= 0 ; i< prices.size(); i++)
-      {
-          minVal = min(minVal,prices[i]);
-          maxProf = max(maxProf,prices[i]-minVal);
-      }
-     return maxProf;
+     // int maxProf = 0;
+     // int minVal = INT_MAX;
+     //  for(int i= 0 ; i< prices.size(); i++)
+     //  {
+     //      minVal = min(minVal,prices[i]);
+     //      maxProf = max(maxProf,prices[i]-minVal);
+     //  }
+     // return maxProf;
+        int mini = prices[0];
+        int maxProfit = 0;
+        for(int i=1;i<prices.size();i++){
+            int currProfit = prices[i] - mini;
+            mini = min(prices[i],mini);
+            maxProfit = max(maxProfit,currProfit);
+        }
+        return maxProfit;
     }
 };
