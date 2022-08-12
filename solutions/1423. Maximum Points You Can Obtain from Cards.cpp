@@ -1,13 +1,3 @@
-class Solution {
-public:
-    int maxScore(vector<int>& cardPoints, int k) {
-     
-    /*
-     first time solved: 19.18.2021
-     Goal: To find maximum sum by taking one card at a time from either side.
-     Reduced Goal: To find maximum sum by taking x cards from front and k-x cards from back of      array.
-    */
-        
     /* approach 01:
        01. if we want to from k card then remaining cards will be n-k cards
        02. if sum of k cards have to maximum then sum of n-k cards should be minimum
@@ -26,22 +16,37 @@ public:
         04. update res = max(res,currSUm);
         05. return res
         Time: O(k) space:O(1)
+        
+        
+      Solved after learning DP
+      solution gives right correct similar to coins picking problem
+      but memoization gives MLE - Memory limit exceeded
+      but n can be 10e5 where creating that much greater array gives MLE.
+      
+      from both ends at max we need only k elements 
+      so calculate sum from first k elem from left;
+      reduce one by one from left starting from k-1 index upto index 0
+      and add value from right from index n-1
+      only ptr1 becomes -1 that means all elements removed from left side so stop loop.
      */
         
-       
-        vector<int>cp = cardPoints;
-        int n = cp.size();
-        int sum=0;
+        int sum = 0;
+        int n = arr.size();
+        for(int i =0;i<k;i++)
+            sum += arr[i];
+        int ptr1 = k-1;
+        int ptr2 = n-1;
         
-        for(int i=0;i<=k-1;i++)
-            sum+=cp[i]; 
-        int ans = sum;
-        for(int i=k-1,j=n-1;i>=0;i--,j--){
-            sum=sum-cp[i];
-            sum=sum+cp[j];
-            ans=max(ans, sum);
+        int result = sum;
+        cout<<sum<<endl;
+        while(ptr1> -1){
+            sum = sum - arr[ptr1];
+            sum = sum + arr[ptr2];
+            cout<<sum<<" ";
+            result = max(result,sum);
+            ptr1--;
+            ptr2--;
         }
-        
-        return ans;
+        return result;
     }
 };
