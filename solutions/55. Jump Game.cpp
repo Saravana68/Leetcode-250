@@ -17,14 +17,14 @@ public:
        Time: O(N) space: O(1
 ​
     */
-        int n = nums.size();
-        int maxReachable = 0;
-        for(int i =0; i<nums.size(); i++)
-        {
-            if(maxReachable < i)
-                return false;
-            maxReachable = max(maxReachable,i+nums[i]);
+        
+        int maxJump = 0;
+        for(int i =0;i<nums.size();i++){
+            if(i > maxJump) return false;
+            if(i + nums[i] >= nums.size()-1) return true;
+            maxJump = max(maxJump,i+nums[i]);
         }
+        
         return true;
     }
 };
