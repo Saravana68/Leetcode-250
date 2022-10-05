@@ -1,8 +1,10 @@
-# Leetcode - 200 🔥
+# Leetcode - 300 🔥
 
- <li> ✅ The below listed problems are solved by me in leetcode platform </li> 
- <li> ✅ Each problem has written with Both Brute force and Optimal approach with their respective time complexities </li> 
- <li> ✅ Every solution is a valid solution uploaded only after got accepted in Leetcode </li> 
+![SARAVANA KUMAR (7)](https://user-images.githubusercontent.com/63772127/193979625-904e1405-32a4-4b06-9c37-762cdf4e7078.jpg)
+
+ <li> ✅ I have used C++ language to practice Data structures and algorithms
+ <li> ✅ Clicking the title of problem will redirect you to the respective problem page in leetcode
+ <li> ✅ Clicking highlighted C++ will redirect you to solution repository.
  <li> ✅ Every Problem was directly uploaded from Leetcode editor using chrome extension called LeetRecord </li> 
 <hr>
  
