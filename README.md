@@ -32,7 +32,7 @@
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./solutions/55.%20Jump%20Game.cpp)|77 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./solutions/56.%20Merge%20Intervals.cpp)|80 ms|
 |59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./solutions/59.%20Spiral%20Matrix%20II.cpp)|0 ms|
-|61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./solutions/61.%20Rotate%20List.cpp)|7 ms|
+|61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./solutions/61.%20Rotate%20List.cpp)|19 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./solutions/63.%20Unique%20Paths%20II.cpp)|7 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[C++](./solutions/72.%20Edit%20Distance.cpp)|25 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[C++](./solutions/78.%20Subsets.cpp)|4 ms|
