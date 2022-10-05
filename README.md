@@ -5,7 +5,7 @@
  <li> ✅ I have used C++ language to practice Data structures and algorithms
  <li> ✅ Clicking the title of problem will redirect you to the respective problem page in leetcode
  <li> ✅ Clicking highlighted C++ will redirect you to solution repository.
- <li> ✅ Every Problem was directly uploaded from Leetcode editor using chrome extension called LeetRecord </li> 
+ <li> ✅ So far I have solved 270+ problems in Leetcode among them 170+ solutions are documented here.
 <hr>
  
  | # | Title | Solution | Runtime |
