@@ -1,35 +1,26 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        int num1 = nums[0];
-        int num2 = nums[0];
-        int cnt1 =0 , cnt2 = 0;
+        int elem1 = -1 , elem2 = -1;
+        int count1 = 0, count2 = 0;
+        
+        for(int i =0;i<nums.size();i++){
+            
+            if(nums[i] == elem1) {count1++;}
+            else if(nums[i] == elem2) {count2++;}
+            else if(count1 == 0 ){elem1 = nums[i]; count1++; }
+            else if(count2 == 0) {elem2 = nums[i]; count2++; }
+            else{count1--; count2--;}
+        }
+        
+        count1 = 0; count2 = 0;
+        for(int x : nums){
+            if(x == elem1) count1++;
+            else if(x == elem2) count2++;
+        }
         vector<int> ans;
-        int n = nums.size();
-        for(int i =0;i<n;i++){
-            if(num1 == nums[i]) cnt1++;
-            else if(num2 == nums[i]) cnt2++;
-            else if(cnt1 ==0){
-                num1 = nums[i];
-                cnt1++;
-            }
-            else if(cnt2 == 0){
-                num2 = nums[i];
-                cnt2++;
-            }
-            else{
-                cnt1--;
-                cnt2--;
-            }
-        }
-        cnt1 = 0;
-        cnt2 = 0;
-        for(int i =0;i<n;i++){
-            if(num1 == nums[i]) cnt1++;
-            else if(num2 == nums[i]) cnt2++;
-        }
-        if(cnt1 > nums.size() /3) ans.push_back(num1);
-        if(cnt2 > nums.size()/3) ans.push_back(num2);
+        if(count1 > nums.size() / 3) ans.push_back(elem1);
+        if(count2 > nums.size() / 3) ans.push_back(elem2);
         return ans;
     }
 };
