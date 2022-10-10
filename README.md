@@ -175,3 +175,4 @@
 |2130|[ Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[C++](./solutions/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.cpp)|950 ms|
 |2231|[ Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[C++](./solutions/2231.%20Largest%20Number%20After%20Digit%20Swaps%20by%20Parity.cpp)|0 ms|
 |2232|[ Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[C++](./solutions/2232.%20Minimize%20Result%20by%20Adding%20Parentheses%20to%20Expression.cpp)|0 ms|
+|2364|[ Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[C++](./solutions/2364.%20Count%20Number%20of%20Bad%20Pairs.cpp)|387 ms|
