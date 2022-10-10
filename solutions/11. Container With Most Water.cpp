@@ -34,9 +34,9 @@ public:
             int area = (right - left )*min(left_height,right_height);
             result = max(result,area);
             
-            if(left_height < right_height ) left++;
-            else if ( right_height < left_height ) right --;
-            else left++;
+            if(left_height <=right_height ) left++;
+            else  right --;
+            
         }
         return result;
     //first time solved : 12.08.2021
