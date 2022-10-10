@@ -10,7 +10,7 @@ public:
     
     /* optimal approach:
        01. dont need to create 2d vector and form all pascal triangle element
-       02. we can do it using ncr for first index and then derive solution for next          index from that
+       02. we can do it using ncr for first index and then derive solution for next index from that
        time: O(n)   space : O(n)
     */
      
