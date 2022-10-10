@@ -22,7 +22,7 @@
 |3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.cpp)|38 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./solutions/11.%20Container%20With%20Most%20Water.cpp)|250 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[C++](./solutions/15.%203Sum.cpp)|64 ms|
-|16|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./solutions/16.%203Sum%20Closest.cpp)|16 ms|
+|16|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./solutions/16.%203Sum%20Closest.cpp)|624 ms|
 |18|[ 4Sum](https://leetcode.com/problems/4sum/)|[C++](./solutions/18.%204Sum.cpp)|320 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./solutions/20.%20Valid%20Parentheses.cpp)|3 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|8 ms|
