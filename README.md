@@ -169,6 +169,7 @@
 |1629|[ Slowest Key](https://leetcode.com/problems/slowest-key/)|[C++](./solutions/1629.%20Slowest%20Key.cpp)|19 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.cpp)|112 ms|
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./solutions/1696.%20Jump%20Game%20VI.cpp)|216 ms|
+|1814|[ Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|[C++](./solutions/1814.%20Count%20Nice%20Pairs%20in%20an%20Array.cpp)|308 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp)|74 ms|
 |2074|[ Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[C++](./solutions/2074.%20Reverse%20Nodes%20in%20Even%20Length%20Groups.cpp)|1342 ms|
 |2095|[ Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./solutions/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)|1487 ms|
