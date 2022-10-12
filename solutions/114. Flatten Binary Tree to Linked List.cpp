@@ -1,31 +1,48 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
+​
+/* 
+   BRUTEFORCE APPROACH 
+   -------------------
+   
+   
+class Solution
+{
+    public:
+    void dfs(Node* root, vector<Node*> &Nodes){
+        if(!root) return;
+        
+        Nodes.push_back(root);
+        dfs(root->left,Nodes);
+        dfs(root->right,Nodes);
+    }
+    void flatten(Node *root)
+    {
+       vector<Node*> Nodes;
+       dfs(root,Nodes);
+       Node* head = Nodes[0];
+       for(int i =1 ;i<=Nodes.size()-1;i++){
+           head->right = Nodes[i];
+           head->left = NULL;
+           head = head->right;
+       }
+       root = head;
+    }
+};
+​
+​
+​
+*/
+​
+​
 class Solution {
 public:
+   TreeNode* prev = NULL;
     void flatten(TreeNode* root) {
-        if(root == NULL) return;
-        stack<TreeNode*> st;
-        st.push(root);
-        while(!st.empty()) {
-            TreeNode* node = st.top();
-            st.pop();
-            
-            if(node->right != NULL) st.push(node->right);
-            if(node->left != NULL) st.push(node->left);
-            
-            if(!st.empty()) {
-                node->right = st.top();
-            }
-            node->left = NULL;
-        }
+        if(!root) return;
+        
+        flatten(root->right);
+        flatten(root->left);
+        root->right = prev;
+        root->left = NULL;
+        prev = root;
     }
 };
