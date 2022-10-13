@@ -95,6 +95,7 @@
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)|19 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./solutions/238.%20Product%20of%20Array%20Except%20Self.cpp)|46 ms|
 |239|[ Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[C++](./solutions/239.%20Sliding%20Window%20Maximum.cpp)|256 ms|
+|257|[ Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[C++](./solutions/257.%20Binary%20Tree%20Paths.cpp)|13 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./solutions/287.%20Find%20the%20Duplicate%20Number.cpp)|88 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./solutions/289.%20Game%20of%20Life.cpp)|0 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./solutions/300.%20Longest%20Increasing%20Subsequence.cpp)|4 ms|
