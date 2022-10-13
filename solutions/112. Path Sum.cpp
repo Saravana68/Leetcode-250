@@ -1,10 +1,4 @@
-        if(root->left== NULL && root->right== NULL && sum == targetSum) 
-            return true;
-        
-      return hasPathSum(root->left,targetSum) ||
-        hasPathSum(root->right,targetSum);
-​
-​
+/**
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -17,25 +11,21 @@
  */
 class Solution {
 public:
-    
-    bool pathSum(TreeNode* root,int targetSum,int  sum)
-    {
-        if(!root) return false;
+    void solve(TreeNode* root,int &target, int sum,bool &flag){
+        if(!root) return;
         sum += root->val;
-        
-        cout<<sum<<" ";
-        // if(sum>targetSum) return false;
-        
-        if(root->left== NULL && root->right== NULL && sum == targetSum) 
-            return true;
-        
-      return pathSum(root->left,targetSum,sum) ||
-        pathSum(root->right,targetSum,sum);
+        if(!root->left && !root->right){
+            cout<<sum<<" ";
+            if(sum == target) flag  = true;
+            return;
+        }
+        solve(root->left,target,sum,flag);
+        solve(root->right,target,sum,flag);
     }
-    
     bool hasPathSum(TreeNode* root, int targetSum) {
-        
-       int sum = 0;
-      return pathSum(root,targetSum,sum);
+        int sum = 0;
+        bool flag = false;
+        solve(root,targetSum,sum,flag);
+        return flag;
     }
 };
