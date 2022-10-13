@@ -138,6 +138,7 @@
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[C++](./solutions/901.%20Online%20Stock%20Span.cpp)|216 ms|
 |909|[ Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|[C++](./solutions/909.%20Snakes%20and%20Ladders.cpp)|12 ms|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[C++](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.cpp)|0 ms|
+|968|[ Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[C++](./solutions/968.%20Binary%20Tree%20Cameras.cpp)|21 ms|
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[C++](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.cpp)|60 ms||994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C++](./solutions/994.%20Rotting%20Oranges.cpp)|0 ms|
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|81 ms|
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
