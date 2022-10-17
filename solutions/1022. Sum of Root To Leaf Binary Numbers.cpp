@@ -11,25 +11,13 @@
  */
 class Solution {
 public:
-    int sum =0;
-    void dfs(TreeNode* root,string & answer){
-        if(!root)
-            return;
-        answer += to_string(root->val);
-        cout<<answer<<" ";
-        if(!root->left && !root->right){
-            int number = stoi(answer,0,2);
-            cout<<number<<endl;
-            sum+= number;
-            return;
-        }
-        dfs(root->left,answer);
-        if(root->left)answer.pop_back();
-        dfs(root->right,answer);
-        if(root->right) answer.pop_back();
+    int solve(TreeNode* root, int sum){
+        if(!root) return 0;
+        sum = (sum * 2) + root->val;
+        if(!root->left && !root->right) return sum;
+        return solve(root->left,sum) + solve(root->right,sum);
     }
     int sumRootToLeaf(TreeNode* root) {
-        
-        if(!root)
-            return 0;
-        string answer;
+        return solve(root,0);
+    }
+};
