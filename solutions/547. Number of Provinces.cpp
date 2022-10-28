@@ -7,7 +7,7 @@ public:
             if(adj[u][v] && !vis[v])
                 doDfs(v,adj,vis);
         }
-    }
+    }
     
     int findCircleNum(vector<vector<int>>& adj) {
         int n = adj.size();
