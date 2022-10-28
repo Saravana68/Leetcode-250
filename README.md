@@ -143,6 +143,7 @@
 |958|[ Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[C++](./solutions/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.cpp)|16 ms|
 |968|[ Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[C++](./solutions/968.%20Binary%20Tree%20Cameras.cpp)|21 ms|
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[C++](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.cpp)|60 ms||994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C++](./solutions/994.%20Rotting%20Oranges.cpp)|0 ms|
+|994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[C++](./solutions/994.%20Rotting%20Oranges.cpp)|10 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[C++](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.cpp)|14 ms|
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|81 ms|
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.cpp)|28 ms|
