@@ -1,54 +1,50 @@
-class Solution {
-public:
-    int orangesRotting(vector<vector<int>>& grid) {
-        int m=grid.size();
-        int n=grid[0].size();
-        int fresh_oranges=0;
+        return false;
+    }
+    
+    
+    int orangesRotting(vector<vector<int>>& grid){
         
-        int count=0;
+        
         queue<pair<int,int>> q;
-        
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]==2){
+        int n = grid.size();
+        int m = grid[0].size();
+        int fresh_oranges = 0;
+        // collecting rotten oranges in minute 0
+        for(int i =0;i<grid.size();i++){
+            for(int j =0;j<grid[0].size();j++){
+                if(grid[i][j] == 2){ 
+                    cout<<i<<j<<endl;
                     q.push({i,j});
-                }
-                else if(grid[i][j]==1){
-                    fresh_oranges++;
-                }
+                }if(grid[i][j] == 1) fresh_oranges++;
             }
         }
-        if(fresh_oranges==0) return 0;
         
-        int x[4]={-1,0,1,0};
-        int y[4]={0,-1,0,1};
-        
+        if(fresh_oranges == 0) return 0;
+        int count  = 0;
         while(!q.empty()){
-            int len=q.size();
-            count++;
+            int len = q.size();
             while(len){
-                pair<int,int> p=q.front();
-                q.pop();
-                for(int i=0;i<4;i++){
-                    int xd=p.first+x[i];
-                    int yd=p.second+y[i];
-                    if(xd>=0 && xd<m && yd>=0 && yd<n && grid[xd][yd]==1){
-                        grid[xd][yd]=2;
-                        q.push({xd,yd});
-                    }
+                auto it = q.front(); q.pop();
+                for(int k = 0;k<4;k++){
+                  int x = it.first + dx[k];
+                  int y = it.second + dy[k];
+                  if(isValid(x,y,grid)){
+                      grid[x][y] = 2;
+                      q.push({x,y});
+                  }
                 }
                 len--;
             }
-        }
-        
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
+            count++;
+        } 
+       
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
                 if(grid[i][j]==1){
                     return -1;
                 }
             }
         }
-        
         return count-1;
     }
 };
