@@ -1,40 +1,38 @@
 class Solution {
 public:
-    vector<int> findOrder(int n, vector<vector<int>>& pre) {
-     queue<int> q;
-     vector indegree(n,0);
-​
-    //creating adjacency list
-    vector<vector<int>>adj(n);
-    for(auto &x:pre)adj[x[1]].push_back(x[0]);
-    
-    //storing indegree of each vertex
-    for(int i=0;i<n;i++){
-        for(int it:adj[i])indegree[it]++;
-    }
-    
-    //pushing the vertices with indegree=0 in the queue
-    for(int i=0;i<n;i++){
-        if(indegree[i]==0)q.push(i);
-    }
-    
-    //start of bfs
-    vector<int>ans;
-    int count=0;
-    while(!q.empty()){
-        int node=q.front();
-        q.pop();
-        ans.push_back(node);
-        count++;
-        
-        for(auto it: adj[node]){
-            indegree[it]--;
-            if(indegree[it]==0)q.push(it);
+    bool dfs(int u,vector<int> &vis,vector<int> &rec,vector<int> adj[],stack<int> &st){
+        vis[u] =1 ;
+        rec[u]= 1;
+        for(int v : adj[u]){
+            if(!vis[v]){
+                if(dfs(v,vis,rec,adj,st)) return true;
+            }
+            else if(rec[v] == 1) return true;
         }
+        rec[u] =0;
+        st.push(u);
+        return false;
+        
     }
-    //if count != (number of vertices in the graph) there is a cycle in the graph and toposort cannot take place, else we produce the toposort
-    if(count!=n)return {};
-    return ans;
-} 
-    
+    vector<int> findOrder(int N, vector<vector<int>>& arr) {
+        stack<int> st;
+        vector<int> adj[N];
+        vector<int> res;
+        vector<int> rec(N,0);
+        for(vector<int> it : arr){
+            adj[it[0]].push_back(it[1]);
+        }
+        vector<int> vis(N,0);
+        for(int i =0;i<N;i++){
+            if(!vis[i]){
+                if(dfs(i,vis,rec,adj,st)) return {};
+            }
+        }
+        while(st.size()){
+            res.push_back(st.top());
+            st.pop();
+        }
+        reverse(res.begin(),res.end());
+        return res;
+    }
 };
