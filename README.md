@@ -189,6 +189,7 @@
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./solutions/1696.%20Jump%20Game%20VI.cpp)|216 ms|
 |1814|[ Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|[C++](./solutions/1814.%20Count%20Nice%20Pairs%20in%20an%20Array.cpp)|308 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp)|74 ms|
+|1976|[ Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|[C++](./solutions/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.cpp)|113 ms|
 |2074|[ Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[C++](./solutions/2074.%20Reverse%20Nodes%20in%20Even%20Length%20Groups.cpp)|1342 ms|
 |2095|[ Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)|[C++](./solutions/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp)|1487 ms|
 |2130|[ Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[C++](./solutions/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.cpp)|950 ms|
