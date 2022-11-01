@@ -162,6 +162,7 @@
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[C++](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.cpp)|N/A|
 |1319|[ Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./solutions/1319.%20Number%20of%20Operations%20to%20Make%20Network%20Connected.cpp)|181 ms|
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[C++](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.cpp)|22 ms|
+|1334|[ Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)|[C++](./solutions/1334.%20Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.cpp)|156 ms|
 |1352|[ Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/)|[C++](./solutions/1352.%20Product%20of%20the%20Last%20K%20Numbers.cpp)|162 ms|
 |1353|[ Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)|[C++](./solutions/1353.%20Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended.cpp)|312 ms|
 |1377|[ Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)|[C++](./solutions/1377.%20Frog%20Position%20After%20T%20Seconds.cpp)|78 ms|
