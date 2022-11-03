@@ -1,12 +1,12 @@
 # Leetcode - 300 🔥
 
 ![SARAVANA KUMAR (7)](https://user-images.githubusercontent.com/63772127/193979625-904e1405-32a4-4b06-9c37-762cdf4e7078.jpg) <br/><br/>
-![image](https://user-images.githubusercontent.com/63772127/193980225-db560e10-dd41-40d3-b517-bd74fb5f7d82.png)
+![image](https://user-images.githubusercontent.com/63772127/199699254-33d48ff0-928a-4bff-b4a1-bc06f20979a9.png)
 
  <li> ✅ I have used C++ language to practice Data structures and algorithms
  <li> ✅ Clicking the title of problem will redirect you to the respective problem page in leetcode
  <li> ✅ Clicking highlighted C++ will redirect you to solution repository.
- <li> ✅ So far I have solved 270+ problems in Leetcode among them 170+ solutions are documented here.
+ <li> ✅ So far I have solved 300+ problems in Leetcode among them 200+ solutions are documented here.
 <hr>
  
  | # | Title | Solution | Runtime |
