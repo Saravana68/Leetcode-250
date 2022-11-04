@@ -38,6 +38,3 @@ public:
                 if(dist[i] == INT_MAX) return -1;
                 distance = max(distance,dist[i]);
             }
-            return distance;
-    }
-};
