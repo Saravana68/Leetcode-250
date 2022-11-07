@@ -1,50 +1,47 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+​
+​
 class Solution {
 public:
+    
+    int getTotalNodes(ListNode* head){
+        if(!head) return 0;
+        int count = 0;
+        while(head){
+            head = head->next;
+            count++;
+        }
+        return count;
+    }
     ListNode* reverseKGroup(ListNode* head, int k) {
-         
-        int size = 0;
-         ListNode * dummy = head;
-         while(dummy){
-             dummy = dummy->next;
-             size++;
-         }
         
-        ListNode * curr = head;
-        ListNode * prevFirst = NULL;
-        bool isFirstPass = true;
+        ListNode* curr= head;
+        ListNode* prevHead = NULL;
+        bool first = true;
+        
+        int numOfNodes = getTotalNodes(head);
+        
+        
         while(curr){
-            ListNode * first = curr,*prev = NULL;
-            int count =0;
-            while(curr && count<k && size>k  )
-            {
-                ListNode * next = curr->next;
+            ListNode* prev = NULL;
+            ListNode* next = NULL;
+            ListNode* currHead = curr;
+            int count = 0;
+            
+            if(numOfNodes < k) break;
+            
+            while(curr && count < k){
+                next = curr->next;
                 curr->next = prev;
                 prev = curr;
                 curr = next;
                 count++;
+                numOfNodes--;
             }
-            size = size-k;
-            if(isFirstPass)
-            {
-                head = prev;
-                isFirstPass = false;
-            }
-            else
-            {
-                prevFirst->next = prev;
-            }
-            prevFirst = first;
+            if(first) { head = prev; first = false; } 
+            else { prevHead ->next = prev;}
+            prevHead = currHead;
         }
+        prevHead->next = curr;
         return head;
     }
 };
