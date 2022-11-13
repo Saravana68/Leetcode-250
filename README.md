@@ -145,6 +145,7 @@
 |802|[ Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[C++](./solutions/802.%20Find%20Eventual%20Safe%20States.cpp)|477 ms|
 |841|[ Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./solutions/841.%20Keys%20and%20Rooms.cpp)|17 ms|
 |844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[C++](./solutions/844.%20Backspace%20String%20Compare.cpp)|5 ms|
+|872|[ Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[C++](./solutions/872.%20Leaf-Similar%20Trees.cpp)|0 ms|
 |889|[ Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[C++](./solutions/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal.cpp)|8 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[C++](./solutions/901.%20Online%20Stock%20Span.cpp)|216 ms|
 |909|[ Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|[C++](./solutions/909.%20Snakes%20and%20Ladders.cpp)|12 ms|
