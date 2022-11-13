@@ -1,13 +1,3 @@
-                ans = max(ans,dfs2(v,node,adjM,amount));
-            }
-        }
-        
-        if(ans == INT_MIN){
-            return amount[node];
-        }
-        return ans + amount[node];
-    }
-    
     int mostProfitablePath(vector<vector<int>>& edges, int bob, vector<int>& amount) {
         int n = amount.size();   // Number Of Nodes
         vector<int> parent(n,-1);  // Needed to Move Bob from node B to node 0
@@ -28,7 +18,7 @@
         
         //Travel from Bob to 0
         int cur = bob ,curDisOfBob = 0;
-        while(cur != 0){
+        while(cur != -1){
             //Note: distance[cur] here denotes How away Alice in right now from Bob
             if(curDisOfBob < distance[cur]){
                 //Bob already traversed , so gate open for ALice
@@ -49,5 +39,5 @@
        
         return dfs2(0,-1,adjM,amount);
     
-    }
+    }
 };
