@@ -127,7 +127,7 @@
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[C++](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.cpp)|26 ms|
 |599|[ Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[C++](./solutions/599.%20Minimum%20Index%20Sum%20of%20Two%20Lists.cpp)|116 ms|
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[C++](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.cpp)|24 ms|
-|617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C++](./solutions/617.%20Merge%20Two%20Binary%20Trees.cpp)|96 ms|
+|617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C++](./solutions/617.%20Merge%20Two%20Binary%20Trees.cpp)|89 ms|
 |652|[ Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[C++](./solutions/652.%20Find%20Duplicate%20Subtrees.cpp)|106 ms|
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.cpp)|8 ms|
 |678|[ Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./solutions/678.%20Valid%20Parenthesis%20String.cpp)|0 ms|
