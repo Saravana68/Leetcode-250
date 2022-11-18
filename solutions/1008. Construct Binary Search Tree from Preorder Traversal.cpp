@@ -1,35 +1,42 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
+/*  
+   BRUTEFORCE APPROACH   
+   -------------------
+   class Solution {
+public:
+    TreeNode* doConstructBST(vector<int> &preorder,int start,int end){
+        if(start > end) return NULL;
+        TreeNode* root = new TreeNode(preorder[start]);
+        int i;
+        for( i= start+1; i<= end;i++){
+            if(preorder[i]> root->val) break;
+        }
+        root->left = doConstructBST(preorder,start+1,i-1);
+        root->right = doConstructBST(preorder,i,end);
+        return root;
+    }
+    TreeNode* bstFromPreorder(vector<int>& preorder) {
+        
+        return doConstructBST(preorder,0,preorder.size()-1);
+    }
+};
  */
 class Solution {
 public:
-    TreeNode* solve(int &index , int min,int max,vector<int> &arr){
-        if(index >= arr.size()) return NULL;
+    int idx = 0;
+    TreeNode* doConstructBST(vector<int> &preorder,int start, int end){
+        if(idx >= preorder.size()) return NULL;
         TreeNode* root = NULL;
-        if(min < arr[index] && arr[index] < max){
-            root = new TreeNode(arr[index]);
-            index++;
-        if(index < arr.size()){
-            root->left = solve(index,min,root->val,arr);
+        if(preorder[idx] > start &&  preorder[idx] < end){
+            root = new TreeNode(preorder[idx]);
+            idx++;
+            root->left = doConstructBST(preorder,start,root->val);
+            root->right = doConstructBST(preorder,root->val,end);
         }
-        if(index < arr.size()){
-            root->right = solve(index,root->val,max,arr);
-        }
-        }
-      return root;
+        return root;
     }
-    
-    TreeNode* bstFromPreorder(vector<int>& arr) {
-        if(!arr.size()) return NULL;
-        int index = 0;
-        return solve(index,INT_MIN,INT_MAX,arr);
+    TreeNode* bstFromPreorder(vector<int>& preorder) {
+        if(preorder.size() == 0) return NULL;
+        
+        return doConstructBST(preorder,INT_MIN,INT_MAX);
     }
 };
