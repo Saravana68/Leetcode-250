@@ -1,7 +1,7 @@
 # Leetcode - 300 🔥
 
 ![SARAVANA KUMAR (7)](https://user-images.githubusercontent.com/63772127/193979625-904e1405-32a4-4b06-9c37-762cdf4e7078.jpg) <br/><br/>
-![image](https://user-images.githubusercontent.com/63772127/199699254-33d48ff0-928a-4bff-b4a1-bc06f20979a9.png)
+![image](https://user-images.githubusercontent.com/63772127/202963192-0cbb1f88-1d78-4073-9f43-0dec2785b086.png)
 
  <li> ✅ I have used C++ language to practice Data structures and algorithms
  <li> ✅ Clicking the title of problem will redirect you to the respective problem page in leetcode
