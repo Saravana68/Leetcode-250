@@ -205,6 +205,7 @@
 |1785|[ Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/)|[C++](./solutions/1785.%20Minimum%20Elements%20to%20Add%20to%20Form%20a%20Given%20Sum.cpp)|353 ms|
 |1814|[ Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/)|[C++](./solutions/1814.%20Count%20Nice%20Pairs%20in%20an%20Array.cpp)|308 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[C++](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp)|74 ms|
+|1833|[ Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[C++](./solutions/1833.%20Maximum%20Ice%20Cream%20Bars.cpp)|378 ms|
 |1873|[ Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/)|[MySQL](./solutions/1873.%20Calculate%20Special%20Bonus.mysql)|789 ms|
 |1976|[ Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)|[C++](./solutions/1976.%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.cpp)|208 ms|
 |2074|[ Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)|[C++](./solutions/2074.%20Reverse%20Nodes%20in%20Even%20Length%20Groups.cpp)|1342 ms|
