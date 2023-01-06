@@ -213,5 +213,6 @@
 |2231|[ Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)|[C++](./solutions/2231.%20Largest%20Number%20After%20Digit%20Swaps%20by%20Parity.cpp)|0 ms|
 |2232|[ Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/)|[C++](./solutions/2232.%20Minimize%20Result%20by%20Adding%20Parentheses%20to%20Expression.cpp)|0 ms|
 |2236|[ Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[C++](./solutions/2236.%20Root%20Equals%20Sum%20of%20Children.cpp)|0 ms|
+|2244|[ Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[C++](./solutions/2244.%20Minimum%20Rounds%20to%20Complete%20All%20Tasks.cpp)|471 ms|
 |2364|[ Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[C++](./solutions/2364.%20Count%20Number%20of%20Bad%20Pairs.cpp)|387 ms|
 |2467|[ Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|[C++](./solutions/2467.%20Most%20Profitable%20Path%20in%20a%20Tree.cpp)|456 ms|
