@@ -198,6 +198,7 @@
  |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|3 ms|
  |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./solutions/143.%20Reorder%20List.cpp)|51 ms|
  |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[C++](./solutions/328.%20Odd%20Even%20Linked%20List.cpp)|8 ms|
+|1519|[ Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)|[C++](./solutions/1519.%20Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label.cpp)|618 ms|
 |1541|[ Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)|[C++](./solutions/1541.%20Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String.cpp)|62 ms|
 |1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[C++](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.cpp)|526 ms|
 |1561|[ Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)|[C++](./solutions/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.cpp)|140 ms|
