@@ -36,6 +36,7 @@
 |45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./solutions/45.%20Jump%20Game%20II.cpp)|191 ms|
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./solutions/55.%20Jump%20Game.cpp)|77 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./solutions/56.%20Merge%20Intervals.cpp)|80 ms|
+|57|[ Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./solutions/57.%20Insert%20Interval.cpp)|16 ms|
 |59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./solutions/59.%20Spiral%20Matrix%20II.cpp)|0 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./solutions/61.%20Rotate%20List.cpp)|19 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./solutions/62.%20Unique%20Paths.cpp)|6 ms|
