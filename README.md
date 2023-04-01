@@ -145,6 +145,7 @@
 |662|[ Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./solutions/662.%20Maximum%20Width%20of%20Binary%20Tree.cpp)|8 ms|
 |678|[ Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./solutions/678.%20Valid%20Parenthesis%20String.cpp)|0 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./solutions/695.%20Max%20Area%20of%20Island.cpp)|16 ms|
+|704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C++](./solutions/704.%20Binary%20Search.cpp)|49 ms|
 |713|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[C++](./solutions/713.%20Subarray%20Product%20Less%20Than%20K.cpp)|138 ms|
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./solutions/721.%20Accounts%20Merge.cpp)|190 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[C++](./solutions/724.%20Find%20Pivot%20Index.cpp)|48 ms|
