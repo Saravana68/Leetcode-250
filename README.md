@@ -226,6 +226,7 @@
 |2236|[ Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)|[C++](./solutions/2236.%20Root%20Equals%20Sum%20of%20Children.cpp)|0 ms|
 |2244|[ Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)|[C++](./solutions/2244.%20Minimum%20Rounds%20to%20Complete%20All%20Tasks.cpp)|471 ms|
 |2246|[ Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/)|[C++](./solutions/2246.%20Longest%20Path%20With%20Different%20Adjacent%20Characters.cpp)|380 ms|
+|2300|[ Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)|[C++](./solutions/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions.cpp)|238 ms|
 |2364|[ Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)|[C++](./solutions/2364.%20Count%20Number%20of%20Bad%20Pairs.cpp)|387 ms|
 |2467|[ Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/)|[C++](./solutions/2467.%20Most%20Profitable%20Path%20in%20a%20Tree.cpp)|456 ms|
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|57 ms|
